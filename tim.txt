@@ -1,0 +1,33 @@
+<!-- days section control -->
+            <div class="plan">   
+                
+            
+                <h2>Day 1</h2>
+                <img class="img1" src="images/<?php echo $pac1_d1img1;?>" alt="">
+                <img class="img1-1" src="images/<?php echo $pac1_d1img2;?>" alt="">
+                <p><?php echo $pac1_dc1;?></p>
+
+
+                <h2>Day 2</h2>
+                <img class="img1" src="images/<?php echo $pac1_d2img1;?>" alt="">
+                <img class="img1-1" src="images/<?php echo $pac1_d2img2;?>" alt="">
+                <p><?php echo $pac1_dc2;?></p>
+
+
+                <h2>Day 3</h2>
+                <img class="img1" src="images/<?php echo $pac1_d3img1;?>" alt="">
+                <img class="img1-1" src="images/<?php echo $pac1_d3img2;?>" alt="">
+                <p><?php echo $pac1_dc3;?></p>
+
+
+                <h2>Day 4</h2>
+                <img class="img1" src="images/<?php echo $pac1_d4img1;?>" alt="">
+                <img class="img1-1" src="images/<?php echo $pac1_d4img2;?>" alt="">
+                <p><?php echo $pac1_dc4;?></p>
+
+
+                <h2>Day 5</h2>
+                <img class="img1" src="images/<?php echo $pac1_d5img1;?>" alt="">
+                <img class="img1-1" src="images/<?php echo $pac1_d5img2;?>" alt="">
+                <p><?php echo $pac1_dc5;?></p>
+            </div>

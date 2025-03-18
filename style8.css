@@ -1,0 +1,12 @@
+.toptext{
+    position: absolute;
+    margin-top: -77px;
+    left: 0%;
+    width: 70%;
+    margin-bottom: 10px;
+    background: #0442ad;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px;
+    font-size: 15px !important;
+}

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: rgb(243, 198, 0);
+    height: 6vh;
+}
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.emails h2{
+    display: inline;
+    margin-right: 10px;
+    font-size: 0.9em;
+    color: black;
+}
+
+.emails{
+    padding: 10px 60px;
+}
+
+.social-icons{
+    padding: 10px 80px;
+}
+
+.social-icons i{
+    margin-right: 10px;
+}
+
+
+nav .logo img{
+    width: 120px;
+    height: 100px;
+    padding: 10px 80px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(42, 135, 221);
+    height: 12vh;
+}
+
+nav ul{
+    padding: 10px 80px;
+}
+
+
+nav ul li{
+    list-style:none;
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    margin: 10px 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: rgb(42, 135, 221);
+    transition: .3s;
+}
+
+nav ul .about a{
+    background-color: white;
+    color: rgb(42, 135, 221);
+}
+
+
+.main-cont{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.main-cont .about-content{
+    background-color:rgb(42, 135, 221) ;
+    padding-top: 100px;
+    margin-top: 30px;
+    width: 800px;
+    margin-left: 5px;
+    color: white;
+    padding: 50px 30px;
+    border-radius: 8px;
+    height: 750px;
+    margin-bottom: 40px;
+}
+
+.main-cont .logo{
+    margin-right: 10px;
+}
+
+.about-content p{
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.about-content .name{
+    font-size: 1.3em;
+}
+
+.name{
+    margin-left: 600px;
+    margin-top: 60px;
+}
+
+.about-content h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color:rgb(243, 198, 0) ;
+    color: black;
+    font-weight:bold;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.3em;
+}

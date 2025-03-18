@@ -1,0 +1,180 @@
+ <!-- <div class="col-lg-4">
+                    <div class="blog_right_sidebar">
+                        <aside class="single_sidebar_widget search_widget">
+                            <form action="#">
+                                <div class="form-group">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder='Search Keyword'
+                                            onfocus="this.placeholder = '<?php echo "blog.php" ?>'"
+                                            onblur="this.placeholder = 'Search Keyword'">
+                                        <div class="input-group-append">
+                                            <button class="btns" type="button"><i class="ti-search"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
+                                    type="submit">Search</button>
+                            </form>
+                        </aside>
+
+                        <aside class="single_sidebar_widget post_category_widget">
+                            <h4 class="widget_title">Category</h4>
+                            <ul class="list cat-list">
+                                <li>
+                                    <a href="#" class="d-flex">
+                                        <p><?=$user_data['blog_cate1']?></p>
+                                        <p>(37)</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex">
+                                        <p><?=$user_data['blog_cate2']?></p>
+                                        <p>(10)</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex">
+                                        <p><?=$user_data['blog_cate3']?></p>
+                                        <p>(03)</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex">
+                                        <p><?=$user_data['blog_cate4']?></p>
+                                        <p>(11)</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex">
+                                        <p><?=$user_data['blog_cate5']?></p>
+                                        <p>21</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex">
+                                        <p><?=$user_data['blog_cate6']?></p>
+                                        <p>09</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </aside>
+
+                        <aside class="single_sidebar_widget popular_post_widget">
+                            <h3 class="widget_title">Recent Post</h3>
+                            <div class="media post_item">
+                                <img src="images/<?=$user_data['blog_rpic1']?>" alt="post">
+                                <div class="media-body">
+                                    <a href="single-blog.html">
+                                        <h3><?=$user_data['blog_rt1']?></h3>
+                                    </a>
+                                    <p><?=$user_data['blog_rd1']?></p>
+                                </div>
+                            </div>
+                            <div class="media post_item">
+                                <img src="images/<?=$user_data['blog_rpic2']?>" alt="post">
+                                <div class="media-body">
+                                    <a href="single-blog.html">
+                                        <h3><?=$user_data['blog_rt2']?></h3>
+                                    </a>
+                                    <p><?=$user_data['blog_rd2']?></p>
+                                </div>
+                            </div>
+                            <div class="media post_item">
+                                <img src="images/<?=$user_data['blog_rpic3']?>" alt="post">
+                                <div class="media-body">
+                                    <a href="single-blog.html">
+                                        <h3><?=$user_data['blog_rt3']?></h3>
+                                    </a>
+                                    <p><?=$user_data['blog_rd3']?></p>
+                                </div>
+                            </div>
+                            <div class="media post_item">
+                                <img src="images/<?=$user_data['blog_rpic4']?>" alt="post">
+                                <div class="media-body">
+                                    <a href="single-blog.html">
+                                        <h3><?=$user_data['blog_rt4']?></h3>
+                                    </a>
+                                    <p><?=$user_data['blog_rd4']?></p>
+                                </div>
+                            </div>
+                        </aside>
+                        <aside class="single_sidebar_widget tag_cloud_widget">
+                            <h4 class="widget_title">Tag Clouds</h4>
+                            <ul class="list">
+                                <li>
+                                    <a href="#"><?=$user_data['blog_cloud1']?></a>
+                                </li>
+                                <li>
+                                    <a href="#"><?=$user_data['blog_cloud2']?></a>
+                                </li>
+                                <li>
+                                    <a href="#"><?=$user_data['blog_cloud3']?></a>
+                                </li>
+                                <li>
+                                    <a href="#"><?=$user_data['blog_cloud4']?></a>
+                                </li>
+                                <li>
+                                    <a href="#"><?=$user_data['blog_cloud5']?></a>
+                                </li>
+                                <li>
+                                    <a href="#"><?=$user_data['blog_cloud6']?></a>
+                                </li>
+                                <li>
+                                    <a href="#"><?=$user_data['blog_cloud7']?></a>
+                                </li>
+                                <li>
+                                    <a href="#"><?=$user_data['blog_cloud8']?></a>
+                                </li>
+                            </ul>
+                        </aside>
+
+
+                        <aside class="single_sidebar_widget instagram_feeds">
+                            <h4 class="widget_title">Instagram Feeds</h4>
+                            <ul class="instagram_row flex-wrap">
+                                <li>
+                                    <a href="#">
+                                        <img class="img-fluid" src="images/<?=$user_data['blog_feed1']?>" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img class="img-fluid" src="images/<?=$user_data['blog_feed2']?>" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img class="img-fluid" src="images/<?=$user_data['blog_feed3']?>" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img class="img-fluid" src="images/<?=$user_data['blog_feed4']?>" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img class="img-fluid" src="images/<?=$user_data['blog_feed5']?>" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img class="img-fluid" src="images/<?=$user_data['blog_feed6']?>" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </aside>
+
+
+                        <aside class="single_sidebar_widget newsletter_widget">
+                            <h4 class="widget_title">Newsletter</h4>
+
+                            <form action="#">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" onfocus="this.placeholder = ''"
+                                        onblur="this.placeholder = 'ninadgawade149@gmail.com'" placeholder='ninadgawade149@gmail.com' required>
+                                </div>
+                                <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
+                                    type="submit">Subscribe</button>
+                            </form>
+                        </aside>
